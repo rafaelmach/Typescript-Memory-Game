@@ -9,7 +9,9 @@ import { CardType } from "./setup"
 import { Grid } from "./App.styles"
 
 const App = () => {
-  const [cards, setCards] = useState<CardType[]>(shuffleArray(createBoard()))
+  const [cards, setCards] = React.useState<CardType[]>(
+    shuffleArray(createBoard())
+  )
   const [gameWon, setGameWon] = React.useState(false)
   const [matchedPairs, setMatchedPairs] = React.useState(0)
   const [clickedCard, setClickedCard] = React.useState<undefined | CardType>(
