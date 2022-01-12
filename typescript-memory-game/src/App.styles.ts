@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components"
 
 export const Grid = styled.div`
   display: grid;
@@ -7,4 +7,4 @@ export const Grid = styled.div`
   justify-content: center;
   align-items: center;
   justify-items: center;
-`;
+`
