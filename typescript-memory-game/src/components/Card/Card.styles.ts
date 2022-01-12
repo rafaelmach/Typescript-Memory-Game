@@ -15,8 +15,8 @@ type Props = {
 };
 
 const sharedStyles = css`
-  width: 100%;
-  height: 100%;
+  width: 230px;
+  height: 230px;
   transition: all 0.5s;
   backface-visibility: hidden;
   cursor: pointer;
