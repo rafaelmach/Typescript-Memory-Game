@@ -44,7 +44,12 @@ This app features all the latest tools and practices in web development
 
 ##  Installing Project Dependencies
 
-### `yarn install` or `npm install`
+### `npm install --save typescript @types/node @types/react @types/react-dom @types/jest`
+
+or
+
+### `yarn add typescript @types/node @types/react @types/react-dom @types/jest`
+
 
 This command will install all the dependencies needed for the application to run
 <br>
@@ -52,7 +57,7 @@ This command will install all the dependencies needed for the application to run
 
 ## Running the application
 
-### `yarn start` or `npm start`
+### `npm run dev`
 
 It'll run the application in development mode.
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
